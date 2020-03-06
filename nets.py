@@ -11,8 +11,7 @@ class BaseEncoder(nn.Module):
         self.projection_head = nn.Sequential(
                         nn.Linear(2048, 512),
                         nn.ReLU(inplace=True),
-                        nn.Linear(512, 128),
-                        nn.ReLU(inplace=True)
+                        nn.Linear(512, 128)
                         )
 
     def forward(self, x):
