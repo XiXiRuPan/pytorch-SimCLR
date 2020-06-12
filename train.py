@@ -52,7 +52,7 @@ class Trainer:
 
 
     def fit(self):
-        """Function to start training 'net'"""
+        """Function to train network."""
 
         if self.use_gpu:
             self.net.cuda()

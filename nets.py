@@ -3,7 +3,7 @@ import torchvision.models as models
 
 class BaseEncoder(nn.Module):
     """Implementation of base encoder(uses Resnet50) as mentioned in the paper
-    https://arxiv.org/pdf/2002.05709.pdf"""
+    SimCLR: https://arxiv.org/pdf/2002.05709.pdf"""
 
     def __init__(self):
         super().__init__()
