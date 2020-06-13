@@ -1,0 +1,2 @@
+1. read paper and implement pseudocode(training loop)
+2. use offline augmentation instead of online augmentation to save training cost
